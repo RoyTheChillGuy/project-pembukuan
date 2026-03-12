@@ -1,0 +1,81 @@
+﻿
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : 
+Browserslist: 
+browsers data 
+(caniuse-lite) is 9 
+months old. Please 
+run:
+At line:1 char:1
++ & "C:\nvm4w\nodejs/n
+ode.exe" "C:\nvm4w\nod
+ejs/node_modules/npm/b
+in/np ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Browsersli   
+ st: b...ld. Pleas    
+e run::String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  npx update-browsersl
+ist-db@latest
+  Why you should do 
+it regularly: https://
+github.com/browserslis
+t/update-db#readme
+[32mΓ£ô[39m 2540 modules transformed.
+[31mx[39m Build 
+failed in 8.73s
+[31merror during 
+build:
+[31mEBUSY: resource 
+busy or locked, rmdir 
+'C:\laragon\www\projec
+t-pembukuan\dist\backe
+nd'[31m
+    at rmdirSync 
+(node:fs:1201:11)
+    at _rmdirSync (nod
+e:internal/fs/rimraf:2
+36:5)
+    at rimrafSync (nod
+e:internal/fs/rimraf:1
+94:7)
+    at Object.rmSync 
+(node:fs:1247:10)
+    at emptyDir (file:
+///C:/laragon/www/proj
+ect-pembukuan/node_mod
+ules/vite/dist/node/ch
+unks/dep-C6uTJdX2.js:1
+7082:19)
+    at prepareOutDir (
+file:///C:/laragon/www
+/project-pembukuan/nod
+e_modules/vite/dist/no
+de/chunks/dep-C6uTJdX2
+.js:65730:7)
+    at build (file:///
+C:/laragon/www/project
+-pembukuan/node_module
+s/vite/dist/node/chunk
+s/dep-C6uTJdX2.js:6569
+5:7)
+    at async 
+CAC.<anonymous> (file:
+///C:/laragon/www/proj
+ect-pembukuan/node_mod
+ules/vite/dist/node/cl
+i.js:829:5)[39m
